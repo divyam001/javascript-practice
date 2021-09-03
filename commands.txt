@@ -1,0 +1,9 @@
+git branch - to check branches
+git status - to check status
+git checkout -b newBranchName - to create new branch with "newBranchName"
+git add . - to add all files
+git add file.name - to add 1 file with given name
+git commit -m "sample msg" -> to commit code with given msg 
+git push - to push local branch to github
+git pull - to pull current branch from github
+git pull origin/"branchName" - to pull given branchName from origin
