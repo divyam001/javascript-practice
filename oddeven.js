@@ -1,8 +1,12 @@
-function number = prompt("enter your number ")
-if(number % 2 == 0){
-return even;
+
+const number = prompt("Enter a number: ");
+
+
+if(number % 2 == 0) {
+    console.log("The number is even.");
 }
-else
-{
-    return odd;
+
+
+else {
+    console.log("The number is odd.");
 }

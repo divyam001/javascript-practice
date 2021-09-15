@@ -1,8 +1,12 @@
 // if number is even it will return true ,if odd. false
+
 const number = prompt("Enter a number: ");
+
+
 if(number % 2 == 0) {
-    return true;
+    console.log("The number is even.");
 }
+
 else {
-    return false;
+    console.log("The number is odd.");
 }
